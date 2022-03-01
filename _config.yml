@@ -103,7 +103,7 @@ analytics:
 # Site Author
 author:
   name             : "투피쉬"
-  avatar           : "./assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"""
+  avatar           : "./assets/images/bio-photo.JPG"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"""
   bio              : "Here is my workspace"
   #location         : ""
   email            : "ktguni@gmail.com"
