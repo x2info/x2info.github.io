@@ -1,35 +1,14 @@
 # main links
 main:
-  - title: "Home"
-    url: /
-  - title: "Category"
-    url: /categories/
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  #- title: "Naver"
+  #  url: https://www.naver.com/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
-
-  # docs:
-  # - title: 프로그래밍
-  #   children:
-  #     - title: "C++"
-  #       url: cpp/
-  #       category: "cpp"
-  #     - title: "C#"
-  #       url: csharp/
-  #       category: "mssql"
-  # - title: Server
-  #   children:
-  #     - title: "Ubuntu"
-  #       url: ubuntu/
-  #       category: "ubuntu"
-  #     - title: "Windows Server"
-  #       url: windows-server/
-  #       category: "windows-server"
-  # - title: Etc
-  #   children:
-  #     - title: "Jekyll"
-  #       url: jekyll
-  #       category: "jekyll"
