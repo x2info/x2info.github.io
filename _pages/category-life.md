@@ -3,7 +3,8 @@ title: "Life"
 layout: archive
 permalink: categories/life
 author_profile: true
-sidebar_main: true
+sidebar:
+    nav: docs
 ---
 
 {% assign posts = site.categories.life %}

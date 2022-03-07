@@ -2,8 +2,10 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  #- title: "Naver"
-  #  url: https://www.naver.com/
+  - title: "Category"
+    url: /categories/
+  - title: "Tag"
+    url: /tags/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
@@ -12,3 +14,17 @@ main:
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+# docs:
+#   - title: "블로그"
+#     children: 
+#     - title: "GitHub Page"
+#       url: /blog/
+#   - title: "생활"
+#     children: 
+#     - title: "정보"
+#       url: /lifeinfo/
+#     - title: "태그"
+#       url: /tags/
+#     - title: "기타"
+#       url: /etc/

@@ -1,9 +1,10 @@
 ---
 title: "C++ 프로그래밍"
 layout: archive
-permalink: categories/cpp
+permalink: /cpp/
 author_profile: true
-sidebar_main: true
+sidebar:
+    nav: docs
 ---
 
 
