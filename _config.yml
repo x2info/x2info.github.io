@@ -16,7 +16,7 @@ minimal_mistakes_skin    :  "dark" #"default" # "air", "aqua", "contrast", "dark
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "WorkSpace"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Your Name"
@@ -289,5 +289,4 @@ defaults:
       comments: # true
       share: true
       related: true
-      sidebar:
-          nav: docs
+      sidebar_main: true

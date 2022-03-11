@@ -1,16 +1,10 @@
 ---
 title: "ETC"
 layout: archive
-permalink: /etc/
+permalink: /etc
 author_profile: true
-sidebar:
-    nav: docs
+sidebar_main: true
 ---
 
 {% assign posts = site.categories.etc %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
-
-{% for category in site.categories %}
-    {% if category[0] == "cpp" %}
-    {% endif %}
-{% endfor %}
