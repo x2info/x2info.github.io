@@ -4,7 +4,7 @@ classes: wide
 categories:
   - csharp
 tags:
-  - [C#, jekyll, Github, Git]
+  - [C#]
  
 toc_label: "목차"
 toc: true
