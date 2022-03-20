@@ -14,14 +14,14 @@
             <ul style="margin-bottom: 0.2em">
                 {% for category in site.categories %}
                     {% if category[0] == "blog" %}
-                        <li><a href="/blog">📂블로그({{category[1].size}})</a></li>
+                        <span class="nav__title"><a href="/blog">📂블로그({{category[1].size}})</a></span>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul style="margin-bottom: 0.2em">
                 {% for category in site.categories %}
                     {% if category[0] == "csharp" %}
-                        <li><a href="/csharp">📂C#({{category[1].size}})</a></li>
+                    <span class="nav__title"><a href="/csharp">📂C#({{category[1].size}})</a></span>
                     {% endif %}
                 {% endfor %}
             </ul>
