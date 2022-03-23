@@ -1,13 +1,12 @@
 ---
-title: "C++ 프로그래밍"
+title: "Minimal-Mistakes"
 layout: archive
-permalink: /cpp
+permalink: /Minimal-Mistakes
 author_profile: true
 sidebar:
     nav: "sidebar-category"
 ---
 
-
-{% assign posts = site.categories.cpp %}
+{% assign posts = site.categories.Minimal-Mistakes %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}
 

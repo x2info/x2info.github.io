@@ -2,12 +2,8 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "Category"
-    url: /categories/
-  - title: "Tag"
-    url: /tags/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  - title: "Search"
+    url: /search
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
@@ -15,16 +11,22 @@ main:
   # - title: "Sitemap"
   #   url: /sitemap/
 
-# docs:
-#   - title: "블로그"
-#     children: 
-#     - title: "GitHub Page"
-#       url: /blog/
-#   - title: "생활"
-#     children: 
-#     - title: "정보"
-#       url: /lifeinfo/
-#     - title: "태그"
-#       url: /tags/
-#     - title: "기타"
-#       url: /etc/
+sidebar-category:
+  - title: "💻 Programming"
+    children:
+      # - title: "C언어"
+      #   url: "/cpp"
+      #   category: "cpp"
+      
+      - title: "C#"
+        url: "/csharp"
+        category: "csharp"
+      
+      - title: "Minimal-Mistakes"
+        url: "/Minimal-Mistakes"
+        category: "Minimal-Mistakes"
+
+  - title: "👔 Life"
+    children:
+      - title: "섬네일테스트"
+        url: "/test"

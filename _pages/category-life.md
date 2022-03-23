@@ -1,10 +1,11 @@
 ---
 title: "Life"
 layout: archive
-permalink: categories/life
+permalink: /life
 author_profile: true
-sidebar_main: true
+sidebar:
+    nav: "sidebar-category"
 ---
 
 {% assign posts = site.categories.life %}
-{% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
+{% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

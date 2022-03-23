@@ -1,7 +1,12 @@
 ---
+published: false
 title:  "Notice 기능 사용하기"
+excerpt: "minimal-mistakes에서 Notice 사용방법에 대해 알아 봅니다"
+header:
+  overlay_filter: 0.7 
+  
 categories:
-  - blog
+  - Minimal-Mistakes
 tags:
   - [Blog, jekyll, Github, Git]
 ---
