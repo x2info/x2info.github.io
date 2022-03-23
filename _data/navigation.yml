@@ -28,5 +28,11 @@ sidebar-category:
 
   - title: "👔 Life"
     children:
-      - title: "섬네일테스트"
-        url: "/test"
+      - title: "정보"
+        url: "/life-info"
+        category: "life-info"
+
+      # - title: "이벤트"
+      #   url: "/life-event"
+      #   category: "life-event"
+
