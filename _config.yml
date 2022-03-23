@@ -292,4 +292,5 @@ defaults:
       sidebar:                  # 추가한 부분
         nav: "sidebar-category" # 추가한 부분
       header:
-        overlay_image: "/images/teaser-1.jpg"
+          overlay_color: "#333"
+          overlay_filter: 0.7 

@@ -26,6 +26,10 @@ sidebar-category:
         url: "/Minimal-Mistakes"
         category: "Minimal-Mistakes"
 
+      - title: "Tools"
+        url: "/Tools"
+        category: "Tools"
+
   - title: "👔 Life"
     children:
       - title: "정보"

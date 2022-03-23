@@ -1,14 +1,15 @@
 ---
-title: "Page Image사용하기"
+title: "[VS Code Extension] Page Image사용하기"
+
 header:
-    overlay_image: 
-    overlay_filter: 0.7 # same as adding an opacity of 0.5 to a black background
-    caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  overlay_image: "https://images.unsplash.com/photo-1613206485381-b028e578e791?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+
 excerpt: "VS Code에서 Paste Image Extension에 대한 사용법을 설명합니다."
 categories:
-  - Minimal-Mistakes
+  - Tools
 tags:
-  - [Blog, jekyll, Github, Git]
+  - [Minimal-Mistakes, Blog, jekyll, Tools]
 
 toc: true
 toc_sticky: true
