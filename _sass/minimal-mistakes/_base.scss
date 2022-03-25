@@ -20,6 +20,11 @@ body {
     overflow: hidden;
   }
 }
+/* 양쪽 정렬을 위해 추가함*/
+p {
+  text-align: justify;
+  word-break: break-all;
+}
 
 h1,
 h2,
@@ -194,12 +199,12 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em; // default: 0.5em
 }
 
 li ul,
 li ol {
-  margin-top: 0.5em;
+  margin-top: 0.3em;  // default: 0.5em
 }
 
 /*

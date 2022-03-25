@@ -1,31 +1,9 @@
-excerpt: "This post should [...]"
-header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  overlay_filter: rgba(255, 0, 0, 0.5)
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "Download"
-      url: "https://github.com"
+⬛
 
+1️⃣ 
+2️⃣
 
-
-excerpt: "This post should [...]"
-header:
-  overlay_image: /assets/images/unsplash-image-1.jpg
-  overlay_filter: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.5))
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-  actions:
-    - label: "Download"
-      url: "https://github.com"     
-
-
-  image: /assets/images/your-page-image.jpg
-  og_image: /assets/images/your-og-image.jpg
-
-
-
-
-
+3️⃣4️⃣5️⃣6️⃣7️⃣
 DSR 은행권 70% -> 40%
 2금융권 150% -> 50%
 저축은행 200%->

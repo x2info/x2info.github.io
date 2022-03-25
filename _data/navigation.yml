@@ -1,23 +1,11 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "Search"
     url: /search
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
 
 sidebar-category:
   - title: "💻 Programming"
     children:
-      # - title: "C언어"
-      #   url: "/cpp"
-      #   category: "cpp"
-      
       - title: "C#"
         url: "/csharp"
         category: "csharp"
@@ -35,8 +23,4 @@ sidebar-category:
       - title: "정보"
         url: "/life-info"
         category: "life-info"
-
-      # - title: "이벤트"
-      #   url: "/life-event"
-      #   category: "life-event"
 

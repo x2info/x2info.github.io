@@ -1,6 +1,8 @@
 ---
 published: false
 title:  "FileSystemWatcher 사용하기"
+header:
+  overlay_image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80"
 excerpt: "C#에서 FileSystemWatcher 활용법에 대해 알아봅니다."
 classes: wide
 categories:
