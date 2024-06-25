@@ -18,6 +18,7 @@
   }
 }
 
+
 .archive__item {
   position: relative;
 
@@ -50,8 +51,13 @@
   overflow: hidden;
   text-overflow: ellipsis;
 
+  a{
+    padding-left: 35px;
+  }
+
+
   a[rel="permalink"]::before {
-    content: '';
+    content: '📂';
     position: absolute;
     left: 0;
     top: 0;
