@@ -4,23 +4,23 @@ main:
     url: /search
 
 sidebar-category:
-  - title: "💻 Programming"
+  - title: "📁 Programming"
     children:
-      - title: "C#"
+      - title: "📂 C#"
         url: "/csharp"
         category: "csharp"
       
-      - title: "Minimal-Mistakes"
+      - title: "📂 Minimal-Mistakes"
         url: "/Minimal-Mistakes"
         category: "Minimal-Mistakes"
 
-      - title: "Tools"
+      - title: "📂 Tools"
         url: "/Tools"
         category: "Tools"
 
-  - title: "👔 Life"
+  - title: "📁 Life"
     children:
-      - title: "정보"
+      - title: "📂 정보"
         url: "/life-info"
         category: "life-info"
 

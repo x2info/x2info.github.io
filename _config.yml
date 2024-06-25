@@ -103,11 +103,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "투피쉬"
-  avatar           : "/assets/ava.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "📁MyBlog"
+  avatar           : "/assets/ava2.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "" # description
-  location         : "Somewhere"
-  email            : "ktguni@gmail.com"
+  location         : #"Korea"
+  email            : #"ktguni@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

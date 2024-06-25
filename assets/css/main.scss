@@ -6,3 +6,34 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+@import url('https://webfontworld.github.io/naver/MaruBuri.css');
+
+
+//
+// 메뉴 호버링 효과 추가 하기
+// -include/nav_list 코드의 li를 myli로
+//
+#myli  a{
+    text-decoration: none ;
+    display: block;
+    color: #fff;
+    padding: 8px 8px 8px 8px;
+    font-size: small;
+    //font-weight: bold;
+    //border-bottom: 1px solid #fff;
+}
+
+#myli  a:hover {
+    padding: 8px 10px 8px 10px;
+    //background-color: red;
+    background-color: rgb(137, 209, 212);
+    color: #fff;
+}
+
+
+#myli  a.active {
+    padding: 8px 15px 8px 15px !important;;
+    font-weight: bold !important;;
+    color: rgb(137, 209, 212);
+}
+
