@@ -4,8 +4,6 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
 
 @font-face {
     font-family: 'MaruBuri';
@@ -37,6 +35,112 @@
     src: url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.eot?#iefix) format("embedded-opentype"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff2) format("woff2"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.woff) format("woff"), url(https://hangeul.pstatic.net/hangeul_static/webfont/MaruBuri/MaruBuri-ExtraLight.ttf) format("truetype");
 }
 
+
+
+// --------------------------------------------------------
+/* _sass/minimal-mistakes/_variables.scss */
+// --------------------------------------------------------
+
+//수정 이유: 블로그 폰트 교체 
+// - 외부 import 보다 먼저 선언되어 있어야 한다. css 우선순위 인것 같은데 잘 모르겠다.
+
+/* system typefaces */
+$serif: Lora, Georgia, Times, serif !default;
+$sans-serif: -apple-system, BlinkMacSystemFont, "MaruBuri","Noto Sans KR", "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
+$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+
+//수정 이유: 포스팅 영역 크기를 넓게 조정
+$right-sidebar-width-narrow: 100px !default;    // default 200px
+$right-sidebar-width: 200px !default;           // default 300px
+$right-sidebar-width-wide: 250px !default;      // default 400px
+
+$primary-color: #F4C616 !default;
+
+
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+// --------------------------------------------------------
+/* _sass/minimal-mistakes/_reset.scss  */
+// --------------------------------------------------------
+
+//수정 이유: 폰트 크기 조정
+
+html {
+    font-size: 16px;                    // Default 16px;
+  
+    @include breakpoint($medium) {
+      font-size: 18px;                  // Default 18px;
+    }
+  
+    @include breakpoint($large) {
+      font-size: 18px;                  // Default 20px;
+    }
+  
+    @include breakpoint($x-large) {
+      font-size: 20px;                  // Default 22px;
+    }
+  
+  }
+
+  
+
+// --------------------------------------------------------
+/* _sass/minimal-mistakes/_base.scss  */
+// --------------------------------------------------------
+
+//수정 이유: 포스팅 양쪽 정렬 , 하이퍼 링크에 줄 없애기
+
+p {
+    text-align: justify;
+    word-break: break-all;
+  }
+
+  
+a {
+    text-decoration: none; 
+}
+
+
+// --------------------------------------------------------
+/* _sass/minimal-mistakes/_archive.scss */
+// --------------------------------------------------------
+
+//수정 이유: 카테고리를 클릭 할 때 포스팅 제목 앞에 폴더 아이콘 표시 
+
+.archive__item-title {
+    margin-bottom: 0.25em;
+    font-family: $sans-serif-narrow;
+    line-height: initial;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  
+    a{
+      padding-left: 35px;
+    }
+  
+    a[rel="permalink"]::before {
+      content: '📂';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+  
+    a + a {
+      opacity: 0.5;
+    }
+}
+  
 //
 // 메뉴 호버링 효과 추가 하기
 // -include/nav_list 코드의 li를 myli로
