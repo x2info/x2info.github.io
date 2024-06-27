@@ -17,10 +17,10 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "WorkSpace"
+title                    : "📁WorkSpace"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "투피쉬"
+name                     : "😊 투피쉬"
 description              : "This is first my blog"
 url                      : "https://x2info.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
