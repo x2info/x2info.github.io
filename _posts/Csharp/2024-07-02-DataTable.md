@@ -2,8 +2,8 @@
 header:
   overlay_filter: 0.7 
   overlay_image: "https://images.unsplash.com/photo-1516259762381-22954d7d3ad2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1778&q=80"
-title:  "C# DataTable 사용법(데이터 추가/삭제/필터링)"
-excerpt: "C#의 DataTable에서 데이터 추가/삭제/수정/필터링하는 방법에 대해 알아봅니다."
+title:  "C# 프로그래밍: DataTable 사용법과 실전 예제 모음"
+excerpt: "C# DataTable에 대해 자세히 설명합니다. DataTable의 기본 사용법, 실전 예제, 팁을 통해 데이터 관리를 효율적으로 할 수 있는 방법을 안내합니다. 초보자와 고급 사용자 모두를 위한 유용한 정보를 제공합니다."
 categories:
   - csharp
 tags:
