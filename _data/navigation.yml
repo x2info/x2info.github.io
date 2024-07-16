@@ -6,6 +6,10 @@ main:
 sidebar-category:
   - title: "📁 Programming"
     children:
+      - title: "📂 Common"
+        url: "/Common"
+        category: "Common"
+
       - title: "📂 C#"
         url: "/csharp"
         category: "csharp"
@@ -17,6 +21,20 @@ sidebar-category:
       - title: "📂 Tools"
         url: "/Tools"
         category: "Tools"
+
+  - title: "📁 IT"
+    children:
+      - title: "📂 PC"
+        url: "/IT-PC"
+        category: "IT-PC"
+
+      - title: "📂 Mobile"
+        url: "/IT-Mobile"
+        category: "IT-Mobile"
+
+      - title: "📂 Game"
+        url: "/IT-Game"
+        category: "IT-Game"       
 
   - title: "📁 Life"
     children:
