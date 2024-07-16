@@ -25,16 +25,16 @@ sidebar-category:
   - title: "📁 IT"
     children:
       - title: "📂 PC"
-        url: "/IT-PC"
-        category: "IT-PC"
+        url: "/PC"
+        category: "PC"
 
       - title: "📂 Mobile"
-        url: "/IT-Mobile"
-        category: "IT-Mobile"
+        url: "/Mobile"
+        category: "Mobile"
 
       - title: "📂 Game"
-        url: "/IT-Game"
-        category: "IT-Game"       
+        url: "/Game"
+        category: "Game"       
 
   - title: "📁 Life"
     children:
