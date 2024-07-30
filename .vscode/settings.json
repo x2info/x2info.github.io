@@ -1,4 +1,5 @@
 {
     "pasteImage.path": "${projectRoot}/images/",
-    "pasteImage.prefix": "/images/"
+    "pasteImage.prefix": "",
+    "pasteImage.filePathConfirmInputBoxMode": "fullPath"
 }
