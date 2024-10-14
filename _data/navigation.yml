@@ -13,6 +13,10 @@ sidebar-category:
       - title: "📂 C#"
         url: "/csharp"
         category: "csharp"
+
+      - title: "📂 Python"
+        url: "/python"
+        category: "python"
       
       - title: "📂 Minimal-Mistakes"
         url: "/Minimal-Mistakes"
