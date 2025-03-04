@@ -35,7 +35,7 @@ $right-sidebar-width-narrow: 100px !default;    // default 200px
 $right-sidebar-width: 200px !default;           // default 300px
 $right-sidebar-width-wide: 250px !default;      // default 400px
 
-$primary-color: #F8DC25 !default;
+$primary-color: #c8af0c !default;
 
 
 
@@ -141,7 +141,7 @@ a {
 #myli  a:hover {
     padding: 8px 10px 8px 10px;
     //background-color: red;
-    background-color: #F8DC25;
+    background-color: #c8af0c;
     color: #fff;
 }
 
@@ -149,6 +149,6 @@ a {
 #myli  a.active {
     padding: 8px 15px 8px 15px !important;;
     font-weight: bold !important;;
-    color: #F8DC25;
+    color: #c8af0c;
 }
 
