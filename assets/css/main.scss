@@ -90,8 +90,24 @@ a {
   h2, h3{
     color: #F8DC25;
   }
+
+  p {
+    margin-bottom: 12px;  /* 문단과 목록 사이 간격 */
+  }
   
+  ul {
+    margin-top: 6px;  /* 목록과 문단 사이 간격 */
+  }
+  
+  ul li {
+    margin-bottom: 6px;  /* 각 항목 간 여백 */
+  }
+  
+  ul li:last-child {
+    margin-bottom: 0;  /* 마지막 항목은 여백 제거 */
+  }
 }
+
 
 // --------------------------------------------------------
 /* _sass/minimal-mistakes/_archive.scss */
